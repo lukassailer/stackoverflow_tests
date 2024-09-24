@@ -10,5 +10,5 @@ jobs:
     steps:
       - name: Debug echo
         run: |
-          filename="MY_FILE.TXT"
-          echo "::error::Filename $filename doesn't match possible files" && exit 1
+          echo "::error::Epic Fail"
+          exit 1
